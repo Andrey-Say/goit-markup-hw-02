@@ -2,6 +2,7 @@
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --white-color:#ffffff;
 }
 
 body{
@@ -11,10 +12,87 @@ body{
 
 }
 
-.logo{
+.header {}
+
+.nav {}
+
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: #2196F3;
+    color:#000000;
+    text-decoration: none;
+}
+
+.logo .accent {
+    color: var(--accent-color);
+}
+
+.pagination-list {}
+
+.pagination-link {
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+.contacts-header {}
+
+.email {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.tel {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.hero {
+    background-color: #212121;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button {}
+
+.benefits {}
+
+.benefits-list {}
+
+.benefits-title {
+    color: var(--title-text-color);
+}
+
+.benefits-text {}
+
+.work {}
+
+.work-title {
+    color: var(--title-text-color);
+}
+
+.work-list {}
+
+.team {}
+
+.team-title {
+    color: var(--title-text-color);
+}
+
+.text-name {
+    color: var(--title-text-color);
+}
+
+.team-text {}
+
+.list {
+    list-style: none;
 }
