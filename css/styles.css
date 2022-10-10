@@ -39,16 +39,8 @@ body {
   line-height: 1.14;
 }
 
-.pagination-link:hover,
-.pagination-link:focus,
-.footer-address:hover,
-.footer-email:hover,
-.footer-tel:hover,
-.footer-address:focus,
-.footer-email:focus,
-.footer-tel:focus,
-.header-email:hover,
-.header-email:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -181,13 +173,3 @@ body {
   line-height: 1.7;
   color: var(--white-color);
 }
-
-/* .footer-address:hover,
-.footer-email:hover,
-.footer-tel:hover,
-.footer-address:focus,
-.footer-email:focus,
-.footer-tel:focus 
-{
-  color: var(--accent-color);
-} */
