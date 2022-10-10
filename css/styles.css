@@ -40,7 +40,15 @@ body {
 }
 
 .pagination-link:hover,
-.pagination-link:focus {
+.pagination-link:focus,
+.footer-address:hover,
+.footer-email:hover,
+.footer-tel:hover,
+.footer-address:focus,
+.footer-email:focus,
+.footer-tel:focus,
+.header-email:hover,
+.header-email:focus {
   color: var(--accent-color);
 }
 
@@ -49,11 +57,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-}
-
-.header-email:hover,
-.header-email:focus {
-  color: var(--accent-color);
 }
 
 .header-tel {
@@ -86,6 +89,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  cursor: pointer;
   color: var(--white-color);
   letter-spacing: 0.06em;
 }
@@ -99,7 +103,6 @@ body {
 }
 
 .benefits-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -128,7 +131,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
 }
@@ -137,6 +139,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  cursor: pointer;
   color: var(--title-text-color);
 }
 
@@ -153,7 +156,6 @@ body {
 }
 
 .project-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
@@ -180,11 +182,12 @@ body {
   color: var(--white-color);
 }
 
-.footer-address:hover,
+/* .footer-address:hover,
 .footer-email:hover,
 .footer-tel:hover,
 .footer-address:focus,
 .footer-email:focus,
-.footer-tel:focus {
+.footer-tel:focus 
+{
   color: var(--accent-color);
-}
+} */
