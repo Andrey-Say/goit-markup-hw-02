@@ -78,7 +78,6 @@ body {
 }
 
 .hero-button {
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
@@ -88,7 +87,6 @@ body {
 
 .benefits-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -101,7 +99,6 @@ body {
 
 .work-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -109,7 +106,6 @@ body {
 
 .team-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -139,8 +135,8 @@ body {
 .filter-button:focus {
   color: var(--white-color);
 }
+
 .project-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -165,11 +161,15 @@ body {
   color: var(--white-color);
 }
 
-.footer-address,
-.footer-email,
-.footer-tel {
-  font-weight: 400;
+.footer-address {
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
+}
+
+.footer-email,
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
 }
