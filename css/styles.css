@@ -37,6 +37,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -49,6 +50,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-tel {
@@ -56,6 +58,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-tel:hover,
@@ -78,7 +81,9 @@ body {
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.9;
   cursor: pointer;
   color: var(--white-color);
@@ -124,10 +129,12 @@ body {
 }
 
 .filter-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   cursor: pointer;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -145,7 +152,7 @@ body {
 
 .project-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 }
 
 .footer {
@@ -165,6 +172,9 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
+}
+.address {
+  font-style: normal;
 }
 
 .footer-email,
